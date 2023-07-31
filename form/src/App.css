@@ -1,0 +1,6 @@
+form{
+  display:list-item;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

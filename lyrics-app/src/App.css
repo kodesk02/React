@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=Playfair:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300;1,400&display=swap');
+.App{
+  min-height: 100vh;
+  height: auto;
+  text-align:center ;
+  font-family: "Playfair", serif;
+  background-color: black;
+}
+
+h1{
+  font-family: "Fredoka One", cursive;
+  color: rgb(179, 32, 179);
+}
+
+pre{
+  font-size: 30px;
+  color: bisque;
+}
+
+hr{
+  margin-top:5px;
+  width: 60%;
+}
+
+input{
+border: none ;
+background-color: black;
+outline: none;
+color: beige;
+/* border-bottom: 1px solid #ccc;  */
+}
+
+.inp{
+  width: 200px;
+  height: 40px;
+  /* border: 2px solid white; */
+  margin: 0 10px;
+  padding-left: 200px;
+  font-size: 22px;
+}
+
+.btn{
+  width: 90px;
+  height: 40px;
+  background-color: aquamarine;
+}
+
+

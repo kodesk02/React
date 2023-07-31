@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 import {nanoid} from 'nanoid';
 import NotesList from './components/NotesList'
 import Search from './components/Search';
-import Header from './components/Header'
+import Header from './components/Header';
 
 function App() {
   const[notes , setNotes] = useState([

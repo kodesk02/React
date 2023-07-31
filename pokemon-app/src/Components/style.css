@@ -20,13 +20,13 @@ body {
     display: flex;
 }
 .left-content,.right-content{
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
 .left-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
     grid-gap:2rem;
-}
+} 
 .card{
     width: 300px;
     background-color:plum; 
@@ -85,7 +85,11 @@ body {
     margin: 1rem;
     font-size: 17px;
     font-weight: bold;  
-    background-color:rgb(238, 22, 238);
+    background-color:plum;
     color:white;
     border-radius: 8px;
+}
+
+.btn-group button:hover{
+    font-size: 20px;
 }
